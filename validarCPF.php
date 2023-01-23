@@ -1,5 +1,5 @@
 <?php
-    $cpf = '072.998.915-14';
+    $cpf = '000.000.000-00';
 
     function isCpf($cpf) {
         $cpf = preg_replace("/[^0-9]/", "", $cpf);
